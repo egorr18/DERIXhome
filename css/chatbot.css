@@ -1,0 +1,19 @@
+#chatbot-button {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: #0a84ff;
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#chatbot-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.25);
+}

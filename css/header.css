@@ -1,0 +1,26 @@
+.header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo span {
+  color: #0fc205;
+}
+
+.nav a {
+  margin-left: 20px;
+  font-weight: 500;
+}
+
